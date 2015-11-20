@@ -151,7 +151,7 @@
 		\textbf{Extensões:} Passos 3 à 5 \textrightarrow \ Campos preenchidos erroneamente:
 		
 			\begin{enumerate}[label=\alph*.]	
-				\item Processamento de cadastro é interrompido
+				\item Processo de cadastro é interrompido
 				\item Usuário recebe \textit{feedback} relativos ao problema	
 			\end{enumerate}
 		
@@ -200,6 +200,14 @@
 			\item Processo de login é interrompido;
 			\item Erro é notificado ao usuário;
 			\item Dados são solicitados novamente;	
+			
+		Passos 5-6 \textrightarrow \ Campos preenchidos erroneamente:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de edição é interrompido.
+			\item Usuário recebe \textit{feedback} relativos ao problema	
+		\end{enumerate}
+		
 		\end{enumerate}
 		
 		\textbf{Frequência de ocorrência:} Usado frequentemente.
@@ -290,12 +298,160 @@
 		\end{enumerate}
 		
 		\textbf{Frequência de ocorrência:} Usado frequentemente.
+		
+		\subsection{Caso de Uso V - Adicionar Disciplina}
+		
+		\textbf{Escopo:} Aplicação Web Nome
+		
+		\textbf{Nível:} ??
+		
+		\textbf{Atores primários:} Admin
+		
+		\textbf{Interessados:} Admin: Criação de uma nova disciplina no sistema.
+		
+		Aluno: Gerar listas de exercícios da disciplina criada.
+		
+		Professor: Criar listas de exercícios da disciplina criada.
+		
+		\textbf{Pré-condições:} Acesso à Internet. Privilégios de Administrador
+		
+		\textbf{Garantias de sucesso:} Disciplina é criada e adicionada ao banco de dados. Mensagem de confirmação é exibida.
+		
+		\textbf{Cenário de sucesso principal:}
+		
+		\begin{enumerate}
+			\item Admin realiza processo de login no sistema;
+			
+			\item Admin seleciona o link \textit{Adicionar disciplina};
+			
+			\item Admin preenche o formulário de criação da disciplina;
+			
+			\item Criação da disciplina é confirmada;
+			
+			
+		\end{enumerate}
+		
+		\textbf{Extensões:} Passo 1 \textrightarrow \ Usuário ou senha inválidos:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de login é interrompido;
+			\item Erro é notificado ao usuário;
+			\item Dados são solicitados novamente;
+		\end{enumerate}
+		
+		Passo 3 \textrightarrow \ Campos preenchidos erroneamente:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de criação é interrompido.
+			\item Admin recebe \textit{feedback} relativos ao problema.	
+		\end{enumerate}
+		
+		
+		\textbf{Frequência de ocorrência:} Usado moderadamente.
 	
-		\subsection{Caso de Uso II - Adicionar Tópico}
+		\subsection{Caso de Uso VI - Adicionar \textit{tópico} de exercício à disciplina}
+		
+		\textbf{Escopo:} Aplicação Web Nome
+		
+		\textbf{Nível:} ??
+		
+		\textbf{Atores primários:} Admin, Professor
+		
+		\textbf{Interessados:} Admin: Adição de um tópico à determinada disciplina.
+		
+		Professor: Adição de um tópico à determinada disciplina.
+		
+		\textbf{Pré-condições:} Acesso à Internet. Admin ou professor autenticados.
+		
+		\textbf{Garantias de sucesso:} Novo tópico é atribuído à disciplina. Mensagem de confirmação é exibida.
+		
+		\textbf{Cenário de sucesso principal:} 
+		
+		\begin{enumerate}
+			\item Usuário acessa a página web;
+			
+			\item Usuário realiza processo autenticação
+			
+			\item Usuário seleciona a disciplina.
+			
+			\item Usuário seleciona link de adição de novo tópico.
+			
+			\item Usuário preenche formulário de adição de nova \textit{tópico}.
+			
+			\item Criação do \textit{tópico} é confirmada.
+			
+		\end{enumerate}
+		
+		\textbf{Extensões:} 
+		
+		Passo 1 \textrightarrow \ Usuário ou senha inválidos:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de autenticação é interrompido;
+			\item Erro é notificado ao usuário;
+			\item Dados são solicitados novamente;
+		\end{enumerate}
+		
+		Passo 2 \textrightarrow \ Campos preenchidos erroneamente:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de adição do tópico é interrompido
+			\item Usuário recebe \textit{feedback} relativos ao problema	
+		\end{enumerate}
+		
+		\textbf{Frequência de ocorrência:} Usado moderadamente
 	
-		\subsection{Caso de Uso III - Adicionar Questão}
+		\subsection{Caso de Uso VII - Adicionar Questão}
+		
+		\textbf{Escopo:} Aplicação Web Nome
+		
+		\textbf{Nível:} ??
+		
+		\textbf{Atores primários:} Admin, Professor
+		
+		\textbf{Interessados:} Admin: Adição de uma questão ao banco de dados de questões.
+		
+		Professor: Adição de uma questão ao banco de dados de questões.
+		
+		\textbf{Pré-condições:} Acesso à Internet. Admin ou professor autenticados.
+		
+		\textbf{Garantias de sucesso:} Nova questão é adicionada ao banco de dados de questões.
+		
+		\textbf{Cenário de sucesso principal:} 
+		
+		\begin{enumerate}
+			\item Usuário acessa a página web;
+			
+			\item Usuário realiza processo autenticação;
+			
+			\item Usuário seleciona o link \textit{Adicionar Questão};
+			
+			\item Usuário preenche o formulário de adição questão.	
+			
+			\item Criação de questão é confirmada.
+			
+		\end{enumerate}
+		
+		\textbf{Extensões:} 
+		
+		Passo 1 \textrightarrow \ Usuário ou senha inválidos:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de autenticação é interrompido;
+			\item Erro é notificado ao usuário;
+			\item Dados são solicitados novamente;
+		\end{enumerate}
+		
+		Passo 2 \textrightarrow \ Campos preenchidos erroneamente:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de adiçao de questão é interrompido.
+			\item Usuário recebe \textit{feedback} relativos ao problema.	
+		\end{enumerate}
+		
+		\textbf{Frequência de ocorrência:} Usado moderadamente
 	
-		\subsection{Caso de Uso IV - Gerar Lista como Professor}
+		\subsection{Caso de Uso VIII - Gerar Lista como Professor}
 	
 		\subsection{Caso de Uso V - Gerar lista como Aluno}
 	
