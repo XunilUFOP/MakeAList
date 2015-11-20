@@ -20,7 +20,7 @@
 \usepackage{graphicx}           % Pacote para inserir imagens JPEG/JPG e PNG
 \usepackage{xcolor}             % Pacote de cores
 \usepackage{graphicx,color}     % Pacote para definir cores diferentes para fonte
-
+\usepackage{textcomp}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 % ---
@@ -148,16 +148,148 @@
 			\item Sistema confirma que o cadastro foi efetuado com sucesso.
 		\end{enumerate}
 		
-		\textbf{Extensões:}
+		\textbf{Extensões:} Passos 3 à 5 \textrightarrow \ Campos preenchidos erroneamente:
 		
-		\textbf{Frequência de ocorrência:}
+			\begin{enumerate}[label=\alph*.]	
+				\item Processamento de cadastro é interrompido
+				\item Usuário recebe \textit{feedback} relativos ao problema	
+			\end{enumerate}
 		
-		
+		\textbf{Frequência de ocorrência:} Usado moderadamente
+			
 		\subsection{Caso de Uso II - Editar Usuário}
 		
+		\textbf{Escopo:} Aplicação Web Nome
+		
+		\textbf{Nível:} ??
+		
+		\textbf{Atores primários:} Admin, Aluno, Professor
+		
+		\textbf{Interessados:} Admin: Realizar alterações em campos editáveis após cadastro.
+		
+		Aluno: Realizar alterações em campos editáveis após cadastro.
+		
+		Professor: Realizar alterações em campos editáveis após cadastro.
+		
+		\textbf{Pré-condições:} Acesso à Internet. Usuário autenticado.
+		
+		\textbf{Garantias de sucesso:} Campo devidamente alterado no banco de dados. Atualização do valor do campo exibido no sistema. 
+		
+		\textbf{Cenário de sucesso principal:}
+		
+		\begin{enumerate}
+			\item Usuário acessa a página web;
+			
+			\item \textcolor{red}{Usuário seleciona o link \textit{Fazer Login}};
+			
+			\item Usuário realiza o processo de autenticação;
+			
+			\item Usuário acessa seu Perfil;
+			
+			\item Usuário seleciona modifica o campo desejado;
+			
+			\item Usuário confirma a edição;
+			
+			\item Perfil do usuário é atualizado;
+			
+		\end{enumerate}
+		
+		\textbf{Extensões:} Passo 3 \textrightarrow \ Usuário ou senha inválidos:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de login é interrompido;
+			\item Erro é notificado ao usuário;
+			\item Dados são solicitados novamente;	
+		\end{enumerate}
+		
+		\textbf{Frequência de ocorrência:} Usado frequentemente.
+		
 		\subsection{Caso de Uso III - Remover Usuário}
+				
+		\textbf{Escopo:} Aplicação Web Nome
+		
+		\textbf{Nível:} Admin
+		
+		\textbf{Atores primários:} Admin
+		
+		\textbf{Interessados:} Admin: Realizar remoção de um usuário cadastrado.
+		
+		\textbf{Pré-condições:} Acesso à Internet. Privilégio de Administrador.
+		
+		\textbf{Garantias de sucesso:} Usuário devidamente removido do banco de dados. Confirmação exibida.
+		
+		\textbf{Cenário de sucesso principal:}
+		
+		\begin{enumerate}
+			\item Admin acessa a página web;
+			
+			\item Admin realiza o processo de autenticação;
+			
+			\item Admin pesquisa usuário à ser removido;
+			
+			\item Admin aperta o botão remover;
+			
+			\item Admin confirma que ele realmente deseja remover o usuário;
+			
+			\item Usuário é removido do banco de dados;
+			
+			\item Mensagem de confirmação de remoção é exibida.
+			
+		\end{enumerate}
+		
+		\textbf{Extensões:} Passo 2 \textrightarrow \ Usuário ou senha inválidos:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de login é interrompido;
+			\item Erro é notificado ao usuário;
+			\item Dados são solicitados novamente;	
+			
+		\end{enumerate}
+		
+		\textbf{Frequência de ocorrência:} Usado raramente.
 		
 		\subsection{Caso de Uso IV - Logar}
+		
+		\textbf{Escopo:} Aplicação Web Nome
+		
+		\textbf{Nível:} ??
+		
+		\textbf{Atores primários:} Admin, Aluno, Professor
+		
+		\textbf{Interessados:} Admin: Efetuação de autenticação a fim de acessar o sistema. 
+		
+		Aluno: Efetuação de autenticação a fim de acessar o sistema.
+		
+		Professor: Efetuação de autenticação a fim de acessar o sistema.
+		
+		\textbf{Pré-condições:} Acesso à Internet. Usuário previamente cadastrado.
+		
+		\textbf{Garantias de sucesso:} Redirecionamento para página inicial do usuário.
+		
+		\textbf{Cenário de sucesso principal:}
+		
+		\begin{enumerate}
+			\item Usuário acessa a página web;
+			
+			\item \textcolor{red}{Usuário seleciona o link \textit{Logar}};
+			
+			\item Usuário informa campos \textit{usuário} e \textit{senha};
+			
+			\item Usuário pressiona botão \textit{Logar};
+			
+			\item Usuário redirecionado para sua página inicial;
+			
+		\end{enumerate}
+		
+		\textbf{Extensões:} Passos 3-4 \textrightarrow \ Usuário ou senha inválidos:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de login é interrompido;
+			\item Erro é notificado ao usuário;
+			\item Dados são solicitados novamente;
+		\end{enumerate}
+		
+		\textbf{Frequência de ocorrência:} Usado frequentemente.
 	
 		\subsection{Caso de Uso II - Adicionar Tópico}
 	
