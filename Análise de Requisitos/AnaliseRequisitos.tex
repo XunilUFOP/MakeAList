@@ -16,7 +16,7 @@
 \usepackage{hyperref}           % controla a formação do índice
 \usepackage{lastpage}           % usado por abntex2-fichacatalografica.tex
 \usepackage{indentfirst}        % Identa o primeiro parágrafo de cada seção.
-%\usepackage{nomencl}            % Lista de simbolos
+%\usepackage{nomencl}           % Lista de simbolos
 \usepackage{graphicx}           % Pacote para inserir imagens JPEG/JPG e PNG
 \usepackage{xcolor}             % Pacote de cores
 \usepackage{graphicx,color}     % Pacote para definir cores diferentes para fonte
@@ -106,7 +106,7 @@
 	\section{Descrevendo o Produto}
 		
 		\subsection{A Web}
-			Dar o contexto da web
+			A web é um amplo ambiente de serviços e propicio a diversas novas ideias, tendo isso em mente, uma ferramenta, seja qual for sua função, é interessante neste ambiente e pode ser de grande ajuda a diversas pessoas. Um fato importante é o acesso liberado a todos, e apenas a web tem condições de suportar tamanha diversidade de serviços e de oferecer os alicerces necessários para a exposição de novas ideia. Acreditando nessas bases, o produto desenvolvido pela Xunil Xolusions XpreX, tem total capacidade de ser utilizado com as opções oferecidas pela WEB.
 		
 		\subsection{A aplicação}
 			Usar o contexto para mostrar porque é importante que ela seja desenvolvida nessa plataforma, o seu objetivo, funcionamento, para quem e porquê eles devem usar.
@@ -116,7 +116,7 @@
 		
 		\subsection{Caso de Uso I - Cadastrar Usuário}
 		
-		\textbf{Escopo:} Aplicação Web Nome
+		\textbf{Escopo:} make.a.list 
 		
 		\textbf{Nível:} ??
 		
@@ -137,7 +137,7 @@
 		\begin{enumerate}
 			\item Usuário acessa a página web;
 			
-			\item \textcolor{red}{Usuário seleciona o link \textit{Cadastrar}};
+			\item Usuário seleciona o link \textit{Cadastrar};
 			
 			\item Usuário preenche devidamente os campos do formulário de cadastro.
 			
@@ -159,7 +159,7 @@
 			
 		\subsection{Caso de Uso II - Editar Usuário}
 		
-		\textbf{Escopo:} Aplicação Web Nome
+		\textbf{Escopo:} make.a.list 
 		
 		\textbf{Nível:} ??
 		
@@ -180,7 +180,7 @@
 		\begin{enumerate}
 			\item Usuário acessa a página web;
 			
-			\item \textcolor{red}{Usuário seleciona o link \textit{Fazer Login}};
+			\item Usuário seleciona o link \textit{Fazer Login};
 			
 			\item Usuário realiza o processo de autenticação;
 			
@@ -214,7 +214,7 @@
 		
 		\subsection{Caso de Uso III - Remover Usuário}
 				
-		\textbf{Escopo:} Aplicação Web Nome
+		\textbf{Escopo:} make.a.list 
 		
 		\textbf{Nível:} Admin
 		
@@ -258,7 +258,7 @@
 		
 		\subsection{Caso de Uso IV - Logar}
 		
-		\textbf{Escopo:} Aplicação Web Nome
+		\textbf{Escopo:} make.a.list 
 		
 		\textbf{Nível:} ??
 		
@@ -279,7 +279,7 @@
 		\begin{enumerate}
 			\item Usuário acessa a página web;
 			
-			\item \textcolor{red}{Usuário seleciona o link \textit{Logar}};
+			\item Usuário seleciona o link \textit{Logar};
 			
 			\item Usuário informa campos \textit{usuário} e \textit{senha};
 			
@@ -301,7 +301,7 @@
 		
 		\subsection{Caso de Uso V - Adicionar Disciplina}
 		
-		\textbf{Escopo:} Aplicação Web Nome
+		\textbf{Escopo:} make.a.list 
 		
 		\textbf{Nível:} ??
 		
@@ -351,7 +351,7 @@
 	
 		\subsection{Caso de Uso VI - Adicionar \textit{tópico} de exercício à disciplina}
 		
-		\textbf{Escopo:} Aplicação Web Nome
+		\textbf{Escopo:} make.a.list 
 		
 		\textbf{Nível:} ??
 		
@@ -403,7 +403,7 @@
 	
 		\subsection{Caso de Uso VII - Adicionar Questão}
 		
-		\textbf{Escopo:} Aplicação Web Nome
+		\textbf{Escopo:} make.a.list 
 		
 		\textbf{Nível:} ??
 		
@@ -451,11 +451,162 @@
 		
 		\textbf{Frequência de ocorrência:} Usado moderadamente
 	
-		\subsection{Caso de Uso VIII - Gerar Lista como Professor}
+		\subsection{Caso de Uso VIII - Gerar Lista - Professor}
+		
+			\textbf{Escopo:} make.a.list 
+			
+			\textbf{Nível:} ??
+			
+			\textbf{Atores primários:} Admin, Professor
+			
+			\textbf{Interessados:} Admin: Gerar uma lista de exercícios com sucesso.
+			
+			Professor: Gerar uma lista de exercícios contendo as respostas dos mesmos.
+			
+			\textbf{Pré-condições:} Acesso à Internet. Admin ou Professor autenticados.
+			
+			\textbf{Garantias de sucesso:} Nova aba é aberta e a lista em formato \textit{PDF} é exibida. Em seguida, o usuário pode fazer o download da lista.
+			
+			\textbf{Cenário de sucesso principal:} 
+			
+			\begin{enumerate}
+				\item Usuário acessa a página web;
+				
+				\item Usuário realiza processo autenticação;
+				
+				\item Usuário seleciona o link \textit{Gerar Lista};
+				
+				\item Usuário escolha a disciplina dentre uma lista;
+				
+				\item Usuário escolhe quantidade dos exercícios e os tópicos que devem ser abordados pelos mesmos.	
+				
+				\item Nova aba no navegador é aberta exibindo a lista gerada.
+				
+			\end{enumerate}
+			
+			\textbf{Extensões:} 
+			
+			Passo 1 \textrightarrow \ Usuário ou senha inválidos:
+			
+			\begin{enumerate}[label=\alph*.]	
+				\item Processo de autenticação é interrompido;
+				\item Erro é notificado ao usuário;
+				\item Dados são solicitados novamente;
+			\end{enumerate}
+			
+			Passo 5 \textrightarrow \ Número de exercícios informado é maior que a quantidade disponível:
+			
+			\begin{enumerate}[label=\alph*.]	
+				\item Notificação do problema é exibido.
+				\item Alerta perguntando se o usuário deseja uma lista com todos exercícios possíveis.
+			\end{enumerate}
+			
+			\textbf{Frequência de ocorrência:} Usado frequentemente
+			
 	
-		\subsection{Caso de Uso V - Gerar lista como Aluno}
+		\subsection{Caso de Uso IX - Gerar lista - Aluno}
+		
+		
+		\textbf{Escopo:} make.a.list 
+		
+		\textbf{Nível:} ??
+		
+		\textbf{Atores primários:} Admin, Aluno
+		
+		\textbf{Interessados:} Admin: Gerar uma lista de exercícios referentes aos tópicos informados.
+		
+		Professor: Gerar uma lista de exercícios referentes aos tópicos informados.
+		
+		\textbf{Pré-condições:} Acesso à Internet. Admin ou Aluno autenticados.
+		
+		\textbf{Garantias de sucesso:} Nova aba é aberta e a lista em formato \textit{PDF} é exibida. Em seguida, o usuário pode fazer o download da lista.
+		
+		\textbf{Cenário de sucesso principal:} 
+		
+		\begin{enumerate}
+			\item Usuário acessa a página web;
+			
+			\item Usuário realiza processo autenticação;
+			
+			\item Usuário seleciona o link \textit{Gerar Lista};
+			
+			\item Usuário escolha a disciplina dentre uma lista;
+			
+			\item Usuário escolhe quantidade dos exercícios e os tópicos que devem ser abordados pelos mesmos.	
+			
+			\item Nova aba no navegador é aberta exibindo a lista gerada.
+			
+		\end{enumerate}
+		
+		\textbf{Extensões:} 
+		
+		Passo 1 \textrightarrow \ Usuário ou senha inválidos:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de autenticação é interrompido;
+			\item Erro é notificado ao usuário;
+			\item Dados são solicitados novamente;
+		\end{enumerate}
+		
+		Passo 5 \textrightarrow \ Número de exercícios informado é maior que a quantidade disponível:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Notificação do problema é exibido.
+			\item Alerta perguntando se o usuário deseja uma lista com todos exercícios possíveis.
+		\end{enumerate}
+		
+		\textbf{Frequência de ocorrência:} Usado frequentemente
 	
-		\subsection{Caso de Uso VI - Recuperar uma Lista Gerada}
+		\subsection{Caso de Uso X - Recuperar uma Lista Gerada}
+		
+		\textbf{Escopo:} make.a.list 
+		
+		\textbf{Nível:} ??
+		
+		\textbf{Atores primários:} Admin, Aluno, Professor
+		
+		\textbf{Interessados:} Admin: Recuperar lista através de código único.
+		
+		Aluno: Recuperar lista através de código único.
+		
+		Professor: Recuperar lista através de código único.
+		
+		\textbf{Pré-condições:} Acesso à Internet. Usuário autenticado.
+		
+		\textbf{Garantias de sucesso:} Nova aba é aberta mostrando a lista recuperada.
+		
+		\textbf{Cenário de sucesso principal:} 
+		
+		\begin{enumerate}
+			\item Usuário acessa a página web;
+			
+			\item Usuário realiza processo autenticação;
+			
+			\item Usuário seleciona o link \textit{Recuperar Lista};
+			
+			\item Usuário informa código da lista.
+			
+			\item Lista é recuperada e aberta em nova aba do navegador.			
+		\end{enumerate}
+		
+		\textbf{Extensões:} 
+		
+		Passo 1 \textrightarrow \ Usuário ou senha inválidos:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Processo de autenticação é interrompido;
+			\item Erro é notificado ao usuário;
+			\item Dados são solicitados novamente;
+		\end{enumerate}
+		
+		Passo 5 \textrightarrow \ Código inexistente:
+		
+		\begin{enumerate}[label=\alph*.]	
+			\item Notificação da inexistência da lista é exibida para o usuário.
+		\end{enumerate}
+		
+		\textbf{Frequência de ocorrência:} Usado frequentemente
+		
 
 \part{Classes}
 	\section{Classes}
@@ -541,6 +692,32 @@
 		
 
 \part{Cronograma}
+
+\begin{table}[]
+	\centering
+	\caption{Datas}
+	\label{my-label}
+	\begin{tabular}{|l|c|c|c|c|}
+		\hline
+		& \multicolumn{1}{l|}{\textbf{Documentação}} & \multicolumn{1}{l|}{\textbf{Pesquisa}} & \multicolumn{1}{l|}{\textbf{Implementação}} & \multicolumn{1}{l|}{\textbf{Testes}} \\ \hline
+		\textit{Semana 1} 
+		 & X & X& \multicolumn{1}{l|}{} &\multicolumn{1}{l|}{}                  \\ \hline
+		\textit{Semana 2}  & X & X &   &   \\ \hline
+		\textit{Semana 3}  & X & X &   &   \\ \hline
+		\textit{Semana 4}  & X & X &   &   \\ \hline
+		\textit{Semana 5}  & X & X & X &   \\ \hline
+		\textit{Semana 6}  & X & X & X &   \\ \hline
+		\textit{Semana 7}  & X & X & X &   \\ \hline
+		\textit{Semana 8}  & X & X & X & X \\ \hline
+		\textit{Semana 9}  & X & X & X &   \\ \hline
+		\textit{Semana 10} & X & X & X &   \\ \hline
+		\textit{Semana 11} & X & X & X &   \\ \hline
+		\textit{Semana 12} & X & X & X & X \\ \hline
+		\textit{Semana 13} & X & X & X &   \\ \hline
+		\textit{Semana 14} & X & X & X & X \\ \hline
+	\end{tabular}
+	
+\end{table}
 
 \part*{Anexos}
 
