@@ -1,0 +1,95 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Make.A.List</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="dashboard">Minhas Listas</a></li>
+        <li><a href="addCourse">Adicionar Disciplina</a></li>
+        <li><a href="addTopic">Adicionar Tópico</a></li>
+        <li><a href="addQuestion">Adicionar Questão</a></li>
+        <li class="active"><a href="#">Gerar Lista</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Logout</a></li>
+      </ul>
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gerar Lista - Make.A.List</title>
+
+    <!-- Bootstrap -->
+    <link media="all" type="text/css" rel="stylesheet" href="css/app.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <div class="container">
+      <div class="row">
+                <div class="col-md-12">
+          <h2>Adicionar Disciplina</h2>
+          <div class="form-group">
+            <label for="name">Nome da Lista</label>
+            <input type="text" id="name" class="form-control" required autofocus
+            placeholder="Nome da lista">
+            <br>
+
+            <label for="course">Selecione a disciplina</label>
+            <select class="form-control" id="course" required>
+              <option value="aeds">Algoritmo e Estrutura de Dados</option>
+              <option value="prog2">Programação de Computadores II</option>
+              <option value="web">Sistemas WEB</option>
+              <option value="sas">Segurança e Auditoria de Sistemas</option>
+            </select>
+            <br>
+
+            <input type="checkbox" id="topic1" value="1">Tópico 1 <br>
+            <input type="checkbox" id="topic2" value="2">Tópico 2 <br>
+            <input type="checkbox" id="topic3" value="3">Tópico 3 <br>
+            <input type="checkbox" id="topic4" value="4">Tópico 4 <br>
+            <br>
+
+            <label for="number">Número de Questões</label>
+            <input type="number" class="form-control" id="number" required
+                   placeholder="Número de questões" min="1">
+            <br>
+
+            <a href="http://makealist.dev/addQuestion">
+              <input class="btn btn-danger " type="button" value="Cancelar">
+            </a>
+            <input type="submit" value="Gerar" class="btn btn-primary">
+          </div>
+        </div>
+       </div>
+    </div>
+
+<hr />
+    <div class="footer">
+      <p class="text-center"><small>&copy; 2015 Xunil Xpress Xolutions. Todos os direitos reservados.</small></p>
+    </div>
+  </body>
+</html>
