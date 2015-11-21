@@ -21,6 +21,11 @@
 \usepackage{xcolor}             % Pacote de cores
 \usepackage{graphicx,color}     % Pacote para definir cores diferentes para fonte
 \usepackage{textcomp}
+
+\usepackage{mdframed}
+\usepackage{minted}
+\usemintedstyle{monokai}
+
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 % ---
@@ -646,6 +651,8 @@
 				\caption{Diagrama de classes}
 				\label{fig:diagramaclasses}
 			\end{figure}
+			
+		\pagebreak
 		
 		\subsection{Diagrama de Pacotes}
 		\begin{figure}[h]
@@ -658,7 +665,7 @@
 
 \part{Banco de Dados}
 	\section{O Banco de Dados}
-		O banco de dados da aplicação será o MySQL, que está incluído na solução Laragon\footnote{URL DO LARAGON} para a plataforma Windows e possui versões tanto para Mac quanto distribuições Linux. Outro motivo que levou a escolha da tecnologia foi por ser de código aberto, com amplo suporte da comunidade.
+		O banco de dados da aplicação será o MySQL, que está incluído na solução Laragon\footnote{Disponível em \url{http://laragon.org/}} para a plataforma Windows e possui versões tanto para Mac quanto distribuições Linux. Outro motivo que levou a escolha da tecnologia foi por ser de código aberto, com amplo suporte da comunidade.
 		
 		\subsection{Diagrama Entidade-Relacionamento}
 			\begin{figure}[h]
@@ -667,9 +674,6 @@
 				\caption{Diagrama Entidade-Relacionamento do banco de dados da aplicação}
 				\label{fig:Entidaderelacionamento}
 			\end{figure}
-
-	
-		\subsection{Diagrama Relacional}
 	
 
 \part{Protótipos}
@@ -681,46 +685,144 @@
 			Devida a experiência dos integrantes da equipe, será usado o Laravel\footnote{Disponível em: \url{http://laravel.com/}. Acesso em 16 de novembro de 2015.}
 	
 		\subsection{Tela de Login}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=.8]{Imagens/telaLogin}
+				\caption{Tela de login}
+				\label{fig:telaLogin}
+			\end{figure}
+
+		\pagebreak
 	
 		\subsection{Telas do Professor}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=.31]{Imagens/telaProfessor}
+				\caption{Tela do Professor}
+				\label{fig:telaProfessor}
+			\end{figure}
+			
 			\subsubsection{Adicionar Disciplina}
+				\begin{figure}[h]
+					\centering
+					\includegraphics[scale=.31]{Imagens/telaDisciplina}
+					\caption{Tela Adicionar Disciplina}
+					\label{fig:telaDisciplina}
+				\end{figure}
+			
 			\subsubsection{Adicionar Tópico}
+				\begin{figure}[h]
+					\centering
+					\includegraphics[scale=.31]{Imagens/telaTopico}
+					\caption{Tela de Adicionar Tópico}
+					\label{fig:telaTopico}
+				\end{figure}
+				
+				\pagebreak
+				
 			\subsubsection{Adicionar Questão}
+				\begin{figure}[h]
+					\centering
+					\includegraphics[scale=.31]{Imagens/telaQuestao}
+					\caption{Tela de Adicionar Questão}
+					\label{fig:telaQuestao}
+				\end{figure}
+				
 			\subsubsection{Geração de Listas}
-		
+				\begin{figure}[h]
+					\centering
+					\includegraphics[scale=.31]{Imagens/telaGerarLista}
+					\caption{Tela de Geração de Listas}
+					\label{fig:telaGerarLista}
+				\end{figure}
+				
+			\pagebreak
+				
 		\subsection{Tela do Aluno}
-		
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=.8]{Imagens/telaAluno}
+				\caption{Tela do Aluno}
+				\label{fig:telaAluno}
+			\end{figure}
 
 \part{Cronograma}
 
-\begin{table}[]
-	\centering
-	\caption{Datas}
-	\label{my-label}
-	\begin{tabular}{|l|c|c|c|c|}
+	\begin{table}[]
+		\centering
+		\begin{tabular}{|l|c|c|c|c|}
 		\hline
 		& \multicolumn{1}{l|}{\textbf{Documentação}} & \multicolumn{1}{l|}{\textbf{Pesquisa}} & \multicolumn{1}{l|}{\textbf{Implementação}} & \multicolumn{1}{l|}{\textbf{Testes}} \\ \hline
 		\textit{Semana 1} 
 		 & X & X& \multicolumn{1}{l|}{} &\multicolumn{1}{l|}{}                  \\ \hline
-		\textit{Semana 2}  & X & X &   &   \\ \hline
-		\textit{Semana 3}  & X & X &   &   \\ \hline
-		\textit{Semana 4}  & X & X &   &   \\ \hline
-		\textit{Semana 5}  & X & X & X &   \\ \hline
-		\textit{Semana 6}  & X & X & X &   \\ \hline
-		\textit{Semana 7}  & X & X & X &   \\ \hline
-		\textit{Semana 8}  & X & X & X & X \\ \hline
-		\textit{Semana 9}  & X & X & X &   \\ \hline
-		\textit{Semana 10} & X & X & X &   \\ \hline
-		\textit{Semana 11} & X & X & X &   \\ \hline
-		\textit{Semana 12} & X & X & X & X \\ \hline
-		\textit{Semana 13} & X & X & X &   \\ \hline
-		\textit{Semana 14} & X & X & X & X \\ \hline
-	\end{tabular}
+			\textit{Semana 2}  & X & X &   &   \\ \hline
+			\textit{Semana 3}  & X & X &   &   \\ \hline
+			\textit{Semana 4}  & X & X &   &   \\ \hline
+			\textit{Semana 5}  & X & X & X &   \\ \hline
+			\textit{Semana 6}  & X & X & X &   \\ \hline
+			\textit{Semana 7}  & X & X & X &   \\ \hline
+			\textit{Semana 8}  & X & X & X & X \\ \hline
+			\textit{Semana 9}  & X & X & X &   \\ \hline
+			\textit{Semana 10} & X & X & X &   \\ \hline
+			\textit{Semana 11} & X & X & X &   \\ \hline
+			\textit{Semana 12} & X & X & X & X \\ \hline
+			\textit{Semana 13} & X & X & X &   \\ \hline
+			\textit{Semana 14} & X & X & X & X \\ \hline
+		\end{tabular}
+	\caption{Cronograma}
+	\label{cronograma}
 	
 \end{table}
 
 \part*{Anexos}
-
-% Refeências
+\appendix
+	\section{Login}
+		\begin{mdframed}[linecolor=black, topline=true, bottomline=true,leftline=false, rightline=false, backgroundcolor=white,userdefinedwidth=\textwidth]
+			\inputminted[linenos=true,numberblanklines=true,showspaces=false,breaklines=true]{html}{Codigos/login.html}
+		\end{mdframed}
+		
+		\pagebreak
+		
+	\section{Telas do Professor}
+		\begin{mdframed}[linecolor=black, topline=true, bottomline=true,leftline=false, rightline=false, backgroundcolor=white,userdefinedwidth=\textwidth]
+			\inputminted[linenos=true,numberblanklines=true,showspaces=false,breaklines=true]{html}{Codigos/professor.html}
+		\end{mdframed}
+		
+		\pagebreak
+		
+	\section{Adicionar Disciplina}
+		\begin{mdframed}[linecolor=black, topline=true, bottomline=true,leftline=false, rightline=false, backgroundcolor=white,userdefinedwidth=\textwidth]
+			\inputminted[linenos=true,numberblanklines=true,showspaces=false,breaklines=true]{html}{Codigos/disciplina.html}
+		\end{mdframed}
+		
+		\pagebreak
+		
+	\section{Adicionar Tópico}
+		\begin{mdframed}[linecolor=black, topline=true, bottomline=true,leftline=false, rightline=false, backgroundcolor=white,userdefinedwidth=\textwidth]
+			\inputminted[linenos=true,numberblanklines=true,showspaces=false,breaklines=true]{html}{Codigos/topico.html}
+		\end{mdframed}
+		
+		\pagebreak
+		
+	\section{Adicionar Questão}
+		\begin{mdframed}[linecolor=black, topline=true, bottomline=true,leftline=false, rightline=false, backgroundcolor=white,userdefinedwidth=\textwidth]
+			\inputminted[linenos=true,numberblanklines=true,showspaces=false,breaklines=true]{html}{Codigos/questao.html}
+		\end{mdframed}
+		
+		\pagebreak
+		
+	\section{Geração de Listas}
+		\begin{mdframed}[linecolor=black, topline=true, bottomline=true,leftline=false, rightline=false, backgroundcolor=white,userdefinedwidth=\textwidth]
+			\inputminted[linenos=true,numberblanklines=true,showspaces=false,breaklines=true]{html}{Codigos/gerar.html}
+		\end{mdframed}
+		
+		\pagebreak
+			
+	\section{Tela do Aluno}
+		\begin{mdframed}[linecolor=black, topline=true, bottomline=true,leftline=false, rightline=false, backgroundcolor=white,userdefinedwidth=\textwidth]
+			\inputminted[linenos=true,numberblanklines=true,showspaces=false,breaklines=true]{html}{Codigos/aluno.html}
+		\end{mdframed}
+		
+% Referências
 
 \end{document}          

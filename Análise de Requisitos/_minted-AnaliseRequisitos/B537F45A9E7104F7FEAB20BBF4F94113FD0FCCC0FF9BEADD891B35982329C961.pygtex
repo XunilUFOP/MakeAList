@@ -1,0 +1,102 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nt}{\PYGZlt{}nav} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}navbar navbar\PYGZhy{}default\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}div} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}container\PYGZhy{}fluid\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+    \PYG{c}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} Brand and toggle get grouped for better mobile display \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}div} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}navbar\PYGZhy{}header\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}button} \PYG{n+na}{type=}\PYG{l+s}{\PYGZdq{}button\PYGZdq{}} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}navbar\PYGZhy{}toggle collapsed\PYGZdq{}} \PYG{n+na}{data\PYGZhy{}toggle=}\PYG{l+s}{\PYGZdq{}collapse\PYGZdq{}} \PYG{n+na}{data\PYGZhy{}target=}\PYG{l+s}{\PYGZdq{}\PYGZsh{}bs\PYGZhy{}example\PYGZhy{}navbar\PYGZhy{}collapse\PYGZhy{}1\PYGZdq{}} \PYG{n+na}{aria\PYGZhy{}expanded=}\PYG{l+s}{\PYGZdq{}false\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}span} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}sr\PYGZhy{}only\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Toggle navigation\PYG{n+nt}{\PYGZlt{}/span\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}span} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}icon\PYGZhy{}bar\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}\PYGZlt{}/span\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}span} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}icon\PYGZhy{}bar\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}\PYGZlt{}/span\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}span} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}icon\PYGZhy{}bar\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}\PYGZlt{}/span\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}/button\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}a} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}navbar\PYGZhy{}brand\PYGZdq{}} \PYG{n+na}{href=}\PYG{l+s}{\PYGZdq{}/\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Make.A.List\PYG{n+nt}{\PYGZlt{}/a\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/div\PYGZgt{}}
+
+    \PYG{c}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} Collect the nav links, forms, and other content for toggling \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}div} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}collapse navbar\PYGZhy{}collapse\PYGZdq{}} \PYG{n+na}{id=}\PYG{l+s}{\PYGZdq{}bs\PYGZhy{}example\PYGZhy{}navbar\PYGZhy{}collapse\PYGZhy{}1\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}ul} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}nav navbar\PYGZhy{}nav\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}li\PYGZgt{}\PYGZlt{}a} \PYG{n+na}{href=}\PYG{l+s}{\PYGZdq{}dashboard\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Minhas Listas\PYG{n+nt}{\PYGZlt{}/a\PYGZgt{}\PYGZlt{}/li\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}li\PYGZgt{}\PYGZlt{}a} \PYG{n+na}{href=}\PYG{l+s}{\PYGZdq{}addCourse\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Adicionar Disciplina\PYG{n+nt}{\PYGZlt{}/a\PYGZgt{}\PYGZlt{}/li\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}li\PYGZgt{}\PYGZlt{}a} \PYG{n+na}{href=}\PYG{l+s}{\PYGZdq{}addTopic\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Adicionar Tópico\PYG{n+nt}{\PYGZlt{}/a\PYGZgt{}\PYGZlt{}/li\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}li} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}active\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}\PYGZlt{}a} \PYG{n+na}{href=}\PYG{l+s}{\PYGZdq{}\PYGZsh{}\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Adicionar Questão\PYG{n+nt}{\PYGZlt{}/a\PYGZgt{}\PYGZlt{}/li\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}li\PYGZgt{}\PYGZlt{}a} \PYG{n+na}{href=}\PYG{l+s}{\PYGZdq{}generateList\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Gerar Lista\PYG{n+nt}{\PYGZlt{}/a\PYGZgt{}\PYGZlt{}/li\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}/ul\PYGZgt{}}
+
+      \PYG{n+nt}{\PYGZlt{}ul} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}nav navbar\PYGZhy{}nav navbar\PYGZhy{}right\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}li\PYGZgt{}\PYGZlt{}a} \PYG{n+na}{href=}\PYG{l+s}{\PYGZdq{}\PYGZsh{}\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Logout\PYG{n+nt}{\PYGZlt{}/a\PYGZgt{}\PYGZlt{}/li\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}/ul\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}/div\PYGZgt{}}\PYG{c}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} /.container\PYGZhy{}fluid \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{n+nt}{\PYGZlt{}/nav\PYGZgt{}}
+
+
+\PYG{c+cp}{\PYGZlt{}!DOCTYPE html\PYGZgt{}}
+\PYG{n+nt}{\PYGZlt{}html} \PYG{n+na}{lang=}\PYG{l+s}{\PYGZdq{}pt\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}head\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}meta} \PYG{n+na}{charset=}\PYG{l+s}{\PYGZdq{}utf\PYGZhy{}8\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}meta} \PYG{n+na}{http\PYGZhy{}equiv=}\PYG{l+s}{\PYGZdq{}X\PYGZhy{}UA\PYGZhy{}Compatible\PYGZdq{}} \PYG{n+na}{content=}\PYG{l+s}{\PYGZdq{}IE=edge\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}meta} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}viewport\PYGZdq{}} \PYG{n+na}{content=}\PYG{l+s}{\PYGZdq{}width=device\PYGZhy{}width, initial\PYGZhy{}scale=1\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}title\PYGZgt{}}Adicionar Quest\PYG{n+ni}{\PYGZam{}atilde;}o \PYGZhy{} Make.A.List\PYG{n+nt}{\PYGZlt{}/title\PYGZgt{}}
+
+    \PYG{c}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} Bootstrap \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}link} \PYG{n+na}{media=}\PYG{l+s}{\PYGZdq{}all\PYGZdq{}} \PYG{n+na}{type=}\PYG{l+s}{\PYGZdq{}text/css\PYGZdq{}} \PYG{n+na}{rel=}\PYG{l+s}{\PYGZdq{}stylesheet\PYGZdq{}} \PYG{n+na}{href=}\PYG{l+s}{\PYGZdq{}css/app.css\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+
+    \PYG{c}{\PYGZlt{}!\PYGZhy{}\PYGZhy{}[if lt IE 9]\PYGZgt{}}
+\PYG{c}{      \PYGZlt{}script src=\PYGZdq{}https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js\PYGZdq{}\PYGZgt{}\PYGZlt{}/script\PYGZgt{}}
+\PYG{c}{      \PYGZlt{}script src=\PYGZdq{}https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\PYGZdq{}\PYGZgt{}\PYGZlt{}/script\PYGZgt{}}
+\PYG{c}{    \PYGZlt{}![endif]\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}/head\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}body\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}script }\PYG{n+na}{type=}\PYG{l+s}{\PYGZdq{}text/javascript\PYGZdq{}} \PYG{n+na}{src=}\PYG{l+s}{\PYGZdq{}js/jquery\PYGZhy{}1.11.3.min.js\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}\PYGZlt{}/script\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}script }\PYG{n+na}{type=}\PYG{l+s}{\PYGZdq{}text/javascript\PYGZdq{}} \PYG{n+na}{src=}\PYG{l+s}{\PYGZdq{}js/bootstrap.js\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}\PYGZlt{}/script\PYGZgt{}}
+
+    \PYG{n+nt}{\PYGZlt{}div} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}container\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}div} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}row\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+                \PYG{n+nt}{\PYGZlt{}div} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}col\PYGZhy{}md\PYGZhy{}12\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}h2\PYGZgt{}}Adicionar Questão\PYG{n+nt}{\PYGZlt{}/h2\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}div} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}group\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}label} \PYG{n+na}{for=}\PYG{l+s}{\PYGZdq{}question\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Questão\PYG{n+nt}{\PYGZlt{}/label\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}textarea} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}control\PYGZdq{}} \PYG{n+na}{id=}\PYG{l+s}{\PYGZdq{}question\PYGZdq{}} \PYG{n+na}{rows=}\PYG{l+s}{\PYGZdq{}10\PYGZdq{}} \PYG{n+na}{cols=}\PYG{l+s}{\PYGZdq{}50\PYGZdq{}}
+                      \PYG{n+na}{required} \PYG{n+na}{autofocus} \PYG{n+na}{placeholder=}\PYG{l+s}{\PYGZdq{}Corpo da questão\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}/textarea\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}br\PYGZgt{}}
+
+            \PYG{n+nt}{\PYGZlt{}label} \PYG{n+na}{for=}\PYG{l+s}{\PYGZdq{}answer\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Resposta\PYG{n+nt}{\PYGZlt{}/label\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}textarea} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}control\PYGZdq{}} \PYG{n+na}{id=}\PYG{l+s}{\PYGZdq{}answer\PYGZdq{}} \PYG{n+na}{rows=}\PYG{l+s}{\PYGZdq{}10\PYGZdq{}} \PYG{n+na}{cols=}\PYG{l+s}{\PYGZdq{}50\PYGZdq{}}
+                      \PYG{n+na}{required} \PYG{n+na}{placeholder=}\PYG{l+s}{\PYGZdq{}Resposta da questão\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}/textarea\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}br} \PYG{n+nt}{/\PYGZgt{}}
+
+            \PYG{n+nt}{\PYGZlt{}label} \PYG{n+na}{for=}\PYG{l+s}{\PYGZdq{}course\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Disciplina\PYG{n+nt}{\PYGZlt{}/label\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}select} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}control\PYGZdq{}} \PYG{n+na}{id=}\PYG{l+s}{\PYGZdq{}course\PYGZdq{}} \PYG{n+na}{required}\PYG{n+nt}{\PYGZgt{}}
+              \PYG{n+nt}{\PYGZlt{}option} \PYG{n+na}{value=}\PYG{l+s}{\PYGZdq{}aeds\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Algoritmo e Estrutura de Dados\PYG{n+nt}{\PYGZlt{}/option\PYGZgt{}}
+              \PYG{n+nt}{\PYGZlt{}option} \PYG{n+na}{value=}\PYG{l+s}{\PYGZdq{}prog2\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Programação de Computadores II\PYG{n+nt}{\PYGZlt{}/option\PYGZgt{}}
+              \PYG{n+nt}{\PYGZlt{}option} \PYG{n+na}{value=}\PYG{l+s}{\PYGZdq{}web\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Sistemas WEB\PYG{n+nt}{\PYGZlt{}/option\PYGZgt{}}
+              \PYG{n+nt}{\PYGZlt{}option} \PYG{n+na}{value=}\PYG{l+s}{\PYGZdq{}sas\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Segurança e Auditoria de Sistemas\PYG{n+nt}{\PYGZlt{}/option\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}/select\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}br\PYGZgt{}}
+
+            \PYG{n+nt}{\PYGZlt{}label} \PYG{n+na}{for=}\PYG{l+s}{\PYGZdq{}topic\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Tópico\PYG{n+nt}{\PYGZlt{}/label\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}select} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}control\PYGZdq{}} \PYG{n+na}{id=}\PYG{l+s}{\PYGZdq{}topic\PYGZdq{}} \PYG{n+na}{required}\PYG{n+nt}{\PYGZgt{}}
+              \PYG{n+nt}{\PYGZlt{}option} \PYG{n+na}{value=}\PYG{l+s}{\PYGZdq{}aeds\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Ordenação\PYG{n+nt}{\PYGZlt{}/option\PYGZgt{}}
+              \PYG{n+nt}{\PYGZlt{}option} \PYG{n+na}{value=}\PYG{l+s}{\PYGZdq{}prog2\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Herança\PYG{n+nt}{\PYGZlt{}/option\PYGZgt{}}
+              \PYG{n+nt}{\PYGZlt{}option} \PYG{n+na}{value=}\PYG{l+s}{\PYGZdq{}web\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}MVC\PYG{n+nt}{\PYGZlt{}/option\PYGZgt{}}
+              \PYG{n+nt}{\PYGZlt{}option} \PYG{n+na}{value=}\PYG{l+s}{\PYGZdq{}sas\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}Criptografia\PYG{n+nt}{\PYGZlt{}/option\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}/select\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}br\PYGZgt{}}
+
+            \PYG{n+nt}{\PYGZlt{}a} \PYG{n+na}{href=}\PYG{l+s}{\PYGZdq{}http://makealist.dev/addTopic\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+              \PYG{n+nt}{\PYGZlt{}input} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}btn btn\PYGZhy{}danger \PYGZdq{}} \PYG{n+na}{type=}\PYG{l+s}{\PYGZdq{}button\PYGZdq{}} \PYG{n+na}{value=}\PYG{l+s}{\PYGZdq{}Cancelar\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}/a\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}input} \PYG{n+na}{type=}\PYG{l+s}{\PYGZdq{}submit\PYGZdq{}} \PYG{n+na}{value=}\PYG{l+s}{\PYGZdq{}Adicionar\PYGZdq{}} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}btn btn\PYGZhy{}primary\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/div\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/div\PYGZgt{}}
+       \PYG{n+nt}{\PYGZlt{}/div\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/div\PYGZgt{}}
+
+\PYG{n+nt}{\PYGZlt{}hr} \PYG{n+nt}{/\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}div} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}footer\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}p} \PYG{n+na}{class=}\PYG{l+s}{\PYGZdq{}text\PYGZhy{}center\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}\PYGZlt{}small\PYGZgt{}}\PYG{n+ni}{\PYGZam{}copy;} 2015 Xunil Xpress Xolutions. Todos os direitos reservados.\PYG{n+nt}{\PYGZlt{}/small\PYGZgt{}\PYGZlt{}/p\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/div\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}/body\PYGZgt{}}
+\PYG{n+nt}{\PYGZlt{}/html\PYGZgt{}}
+\end{Verbatim}

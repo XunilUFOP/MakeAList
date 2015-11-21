@@ -3,61 +3,67 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Sum\'ario}{2}{section*.1}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Lista de ilustra\c {c}\~{o}es}{4}{section*.2}
+\contentsline {chapter}{Lista de ilustra\c {c}\~{o}es}{5}{section*.2}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Lista de tabelas}{5}{section*.3}
-\contentsline {part}{\partnumberline {I}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{6}{part.1}
-\contentsline {section}{\numberline {1}Uma Breve Introdu\IeC {\c c}\IeC {\~a}o}{7}{section.0.1}
-\contentsline {part}{\partnumberline {II}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Problema}}{8}{part.2}
-\contentsline {section}{\numberline {2}Descrevendo o Problema}{9}{section.0.2}
-\contentsline {subsection}{\numberline {2.1}O Problema dos Professores}{9}{subsection.0.2.1}
-\contentsline {subsection}{\numberline {2.2}O Problema dos Alunos}{9}{subsection.0.2.2}
-\contentsline {part}{\partnumberline {III}\MakeTextUppercase {Objetivo}}{10}{part.3}
-\contentsline {section}{\numberline {3}O Objetivo}{11}{section.0.3}
-\contentsline {subsection}{\numberline {3.1}Visando os Professores}{11}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {3.2}Visando os Alunos}{11}{subsection.0.3.2}
-\contentsline {part}{\partnumberline {IV}\MakeTextUppercase {Escopo da Aplica\IeC {\c c}\IeC {\~a}o}}{12}{part.4}
-\contentsline {section}{\numberline {4}O Escopo}{13}{section.0.4}
-\contentsline {part}{\partnumberline {V}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Produto}}{14}{part.5}
-\contentsline {section}{\numberline {5}Descrevendo o Produto}{15}{section.0.5}
-\contentsline {subsection}{\numberline {5.1}A Web}{15}{subsection.0.5.1}
-\contentsline {subsection}{\numberline {5.2}A aplica\IeC {\c c}\IeC {\~a}o}{15}{subsection.0.5.2}
-\contentsline {part}{\partnumberline {VI}\MakeTextUppercase {Caso de Uso}}{16}{part.6}
-\contentsline {section}{\numberline {6}Casos de Uso}{17}{section.0.6}
-\contentsline {subsection}{\numberline {6.1}Caso de Uso I - Cadastrar Usu\IeC {\'a}rio}{17}{subsection.0.6.1}
-\contentsline {subsection}{\numberline {6.2}Caso de Uso II - Editar Usu\IeC {\'a}rio}{17}{subsection.0.6.2}
-\contentsline {subsection}{\numberline {6.3}Caso de Uso III - Remover Usu\IeC {\'a}rio}{18}{subsection.0.6.3}
-\contentsline {subsection}{\numberline {6.4}Caso de Uso IV - Logar}{19}{subsection.0.6.4}
-\contentsline {subsection}{\numberline {6.5}Caso de Uso V - Adicionar Disciplina}{20}{subsection.0.6.5}
-\contentsline {subsection}{\numberline {6.6}Caso de Uso VI - Adicionar \textit {t\IeC {\'o}pico} de exerc\IeC {\'\i }cio \IeC {\`a} disciplina}{21}{subsection.0.6.6}
-\contentsline {subsection}{\numberline {6.7}Caso de Uso VII - Adicionar Quest\IeC {\~a}o}{22}{subsection.0.6.7}
-\contentsline {subsection}{\numberline {6.8}Caso de Uso VIII - Gerar Lista - Professor}{22}{subsection.0.6.8}
-\contentsline {subsection}{\numberline {6.9}Caso de Uso IX - Gerar lista - Aluno}{23}{subsection.0.6.9}
-\contentsline {subsection}{\numberline {6.10}Caso de Uso X - Recuperar uma Lista Gerada}{24}{subsection.0.6.10}
-\contentsline {part}{\partnumberline {VII}\MakeTextUppercase {Classes}}{26}{part.7}
-\contentsline {section}{\numberline {7}Classes}{27}{section.0.7}
-\contentsline {subsection}{\numberline {7.1}Usu\IeC {\'a}rio}{27}{subsection.0.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Administrador}{27}{subsubsection.0.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}Professor}{27}{subsubsection.0.7.1.2}
-\contentsline {subsubsection}{\numberline {7.1.3}Aluno}{27}{subsubsection.0.7.1.3}
-\contentsline {subsection}{\numberline {7.2}Disciplina}{27}{subsection.0.7.2}
-\contentsline {subsection}{\numberline {7.3}T\IeC {\'o}pico}{27}{subsection.0.7.3}
-\contentsline {subsection}{\numberline {7.4}Quest\IeC {\~a}o}{27}{subsection.0.7.4}
-\contentsline {subsection}{\numberline {7.5}Lista}{27}{subsection.0.7.5}
-\contentsline {subsection}{\numberline {7.6}Diagrama de Classes}{28}{subsection.0.7.6}
-\contentsline {subsection}{\numberline {7.7}Diagrama de Pacotes}{28}{subsection.0.7.7}
-\contentsline {part}{\partnumberline {VIII}\MakeTextUppercase {Banco de Dados}}{30}{part.8}
-\contentsline {section}{\numberline {8}O Banco de Dados}{31}{section.0.8}
-\contentsline {subsection}{\numberline {8.1}Diagrama Entidade-Relacionamento}{31}{subsection.0.8.1}
-\contentsline {subsection}{\numberline {8.2}Diagrama Relacional}{31}{subsection.0.8.2}
-\contentsline {part}{\partnumberline {IX}\MakeTextUppercase {Prot\IeC {\'o}tipos}}{32}{part.9}
-\contentsline {section}{\numberline {9}Prototipa\IeC {\c c}\IeC {\~a}o}{33}{section.0.9}
-\contentsline {subsection}{\numberline {9.1}O Laravel}{33}{subsection.0.9.1}
-\contentsline {subsection}{\numberline {9.2}Tela de Login}{33}{subsection.0.9.2}
-\contentsline {subsection}{\numberline {9.3}Telas do Professor}{33}{subsection.0.9.3}
-\contentsline {subsubsection}{\numberline {9.3.1}Adicionar Disciplina}{33}{subsubsection.0.9.3.1}
-\contentsline {subsubsection}{\numberline {9.3.2}Adicionar T\IeC {\'o}pico}{33}{subsubsection.0.9.3.2}
-\contentsline {subsubsection}{\numberline {9.3.3}Adicionar Quest\IeC {\~a}o}{33}{subsubsection.0.9.3.3}
-\contentsline {subsubsection}{\numberline {9.3.4}Gera\IeC {\c c}\IeC {\~a}o de Listas}{33}{subsubsection.0.9.3.4}
-\contentsline {subsection}{\numberline {9.4}Tela do Aluno}{33}{subsection.0.9.4}
-\contentsline {part}{\partnumberline {X}\MakeTextUppercase {Cronograma}}{34}{part.10}
+\contentsline {chapter}{Lista de tabelas}{6}{section*.3}
+\contentsline {part}{\partnumberline {I}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{7}{part.1}
+\contentsline {section}{\numberline {1}Uma Breve Introdu\IeC {\c c}\IeC {\~a}o}{8}{section.0.1}
+\contentsline {part}{\partnumberline {II}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Problema}}{9}{part.2}
+\contentsline {section}{\numberline {2}Descrevendo o Problema}{10}{section.0.2}
+\contentsline {subsection}{\numberline {2.1}O Problema dos Professores}{10}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {2.2}O Problema dos Alunos}{10}{subsection.0.2.2}
+\contentsline {part}{\partnumberline {III}\MakeTextUppercase {Objetivo}}{11}{part.3}
+\contentsline {section}{\numberline {3}O Objetivo}{12}{section.0.3}
+\contentsline {subsection}{\numberline {3.1}Visando os Professores}{12}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {3.2}Visando os Alunos}{12}{subsection.0.3.2}
+\contentsline {part}{\partnumberline {IV}\MakeTextUppercase {Escopo da Aplica\IeC {\c c}\IeC {\~a}o}}{13}{part.4}
+\contentsline {section}{\numberline {4}O Escopo}{14}{section.0.4}
+\contentsline {part}{\partnumberline {V}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do Produto}}{15}{part.5}
+\contentsline {section}{\numberline {5}Descrevendo o Produto}{16}{section.0.5}
+\contentsline {subsection}{\numberline {5.1}A Web}{16}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {5.2}A aplica\IeC {\c c}\IeC {\~a}o}{16}{subsection.0.5.2}
+\contentsline {part}{\partnumberline {VI}\MakeTextUppercase {Caso de Uso}}{17}{part.6}
+\contentsline {section}{\numberline {6}Casos de Uso}{18}{section.0.6}
+\contentsline {subsection}{\numberline {6.1}Caso de Uso I - Cadastrar Usu\IeC {\'a}rio}{18}{subsection.0.6.1}
+\contentsline {subsection}{\numberline {6.2}Caso de Uso II - Editar Usu\IeC {\'a}rio}{18}{subsection.0.6.2}
+\contentsline {subsection}{\numberline {6.3}Caso de Uso III - Remover Usu\IeC {\'a}rio}{19}{subsection.0.6.3}
+\contentsline {subsection}{\numberline {6.4}Caso de Uso IV - Logar}{20}{subsection.0.6.4}
+\contentsline {subsection}{\numberline {6.5}Caso de Uso V - Adicionar Disciplina}{21}{subsection.0.6.5}
+\contentsline {subsection}{\numberline {6.6}Caso de Uso VI - Adicionar \textit {t\IeC {\'o}pico} de exerc\IeC {\'\i }cio \IeC {\`a} disciplina}{22}{subsection.0.6.6}
+\contentsline {subsection}{\numberline {6.7}Caso de Uso VII - Adicionar Quest\IeC {\~a}o}{23}{subsection.0.6.7}
+\contentsline {subsection}{\numberline {6.8}Caso de Uso VIII - Gerar Lista - Professor}{23}{subsection.0.6.8}
+\contentsline {subsection}{\numberline {6.9}Caso de Uso IX - Gerar lista - Aluno}{24}{subsection.0.6.9}
+\contentsline {subsection}{\numberline {6.10}Caso de Uso X - Recuperar uma Lista Gerada}{25}{subsection.0.6.10}
+\contentsline {part}{\partnumberline {VII}\MakeTextUppercase {Classes}}{27}{part.7}
+\contentsline {section}{\numberline {7}Classes}{28}{section.0.7}
+\contentsline {subsection}{\numberline {7.1}Usu\IeC {\'a}rio}{28}{subsection.0.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Administrador}{28}{subsubsection.0.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Professor}{28}{subsubsection.0.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.3}Aluno}{28}{subsubsection.0.7.1.3}
+\contentsline {subsection}{\numberline {7.2}Disciplina}{28}{subsection.0.7.2}
+\contentsline {subsection}{\numberline {7.3}T\IeC {\'o}pico}{28}{subsection.0.7.3}
+\contentsline {subsection}{\numberline {7.4}Quest\IeC {\~a}o}{28}{subsection.0.7.4}
+\contentsline {subsection}{\numberline {7.5}Lista}{28}{subsection.0.7.5}
+\contentsline {subsection}{\numberline {7.6}Diagrama de Classes}{29}{subsection.0.7.6}
+\contentsline {subsection}{\numberline {7.7}Diagrama de Pacotes}{30}{subsection.0.7.7}
+\contentsline {part}{\partnumberline {VIII}\MakeTextUppercase {Banco de Dados}}{31}{part.8}
+\contentsline {section}{\numberline {8}O Banco de Dados}{32}{section.0.8}
+\contentsline {subsection}{\numberline {8.1}Diagrama Entidade-Relacionamento}{32}{subsection.0.8.1}
+\contentsline {part}{\partnumberline {IX}\MakeTextUppercase {Prot\IeC {\'o}tipos}}{33}{part.9}
+\contentsline {section}{\numberline {9}Prototipa\IeC {\c c}\IeC {\~a}o}{34}{section.0.9}
+\contentsline {subsection}{\numberline {9.1}O Laravel}{34}{subsection.0.9.1}
+\contentsline {subsection}{\numberline {9.2}Tela de Login}{34}{subsection.0.9.2}
+\contentsline {subsection}{\numberline {9.3}Telas do Professor}{35}{subsection.0.9.3}
+\contentsline {subsubsection}{\numberline {9.3.1}Adicionar Disciplina}{35}{subsubsection.0.9.3.1}
+\contentsline {subsubsection}{\numberline {9.3.2}Adicionar T\IeC {\'o}pico}{35}{subsubsection.0.9.3.2}
+\contentsline {subsubsection}{\numberline {9.3.3}Adicionar Quest\IeC {\~a}o}{36}{subsubsection.0.9.3.3}
+\contentsline {subsubsection}{\numberline {9.3.4}Gera\IeC {\c c}\IeC {\~a}o de Listas}{36}{subsubsection.0.9.3.4}
+\contentsline {subsection}{\numberline {9.4}Tela do Aluno}{37}{subsection.0.9.4}
+\contentsline {part}{\partnumberline {X}\MakeTextUppercase {Cronograma}}{38}{part.10}
+\contentsline {section}{\numberline {1}Login}{41}{section.Alph0.1}
+\contentsline {section}{\numberline {2}Telas do Professor}{43}{section.Alph0.2}
+\contentsline {section}{\numberline {3}Adicionar Disciplina}{46}{section.Alph0.3}
+\contentsline {section}{\numberline {4}Adicionar T\IeC {\'o}pico}{49}{section.Alph0.4}
+\contentsline {section}{\numberline {5}Adicionar Quest\IeC {\~a}o}{52}{section.Alph0.5}
+\contentsline {section}{\numberline {6}Gera\IeC {\c c}\IeC {\~a}o de Listas}{56}{section.Alph0.6}
+\contentsline {section}{\numberline {7}Tela do Aluno}{59}{section.Alph0.7}
