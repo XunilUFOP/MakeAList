@@ -1,4 +1,4 @@
-# Make.A.List
+# Ajudaí
 
 Projeto desenvolvido como trabalho para obtenção de créditos na disciplina
 CEA477 - Sistemas para a WEB I da Universidade Federal de Ouro Preto.
