@@ -3,8 +3,7 @@
 Projeto desenvolvido como trabalho para obtenção de créditos na disciplina
 CEA477 - Sistemas para a WEB I da Universidade Federal de Ouro Preto.
 
-O objetivo desse aplicativo WEB é gerar listas de exercício de forma automática
-com base em tópicos de uma determinada disciplina.
+O objetivo desse aplicativo WEB é criar uma espécie de fórum para que os alunos possam discutir e postar dúvidas de modo que os outros alunos respondam as perguntas. Ou seja, um fórum de duvidas de alunos para alunos.
 
 
 ## 1. Documento de Análise de Requisitos
